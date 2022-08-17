@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>adding</class>
+ <widget class="QDialog" name="adding">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>357</width>
+    <height>95</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="0">
+    <widget class="QLineEdit" name="nameL">
+     <property name="inputMask">
+      <string/>
+     </property>
+     <property name="frame">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="3">
+    <widget class="QLineEdit" name="priceL"/>
+   </item>
+   <item row="0" column="4">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>Дата продажи</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Название</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1" colspan="2">
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>Количество</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="3">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>Цена</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1" colspan="2">
+    <widget class="QLineEdit" name="countL"/>
+   </item>
+   <item row="3" column="3">
+    <widget class="QPushButton" name="pushButton">
+     <property name="text">
+      <string>Добавить</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1" colspan="2">
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="text">
+      <string>Отмена</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="4">
+    <widget class="QDateEdit" name="dateEdit"/>
+   </item>
+  </layout>
+  <zorder>horizontalSpacer_3</zorder>
+  <zorder>horizontalSpacer_4</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_4</zorder>
+  <zorder>horizontalSpacer_5</zorder>
+  <zorder>horizontalSpacer_6</zorder>
+  <zorder>horizontalSpacer_7</zorder>
+  <zorder>horizontalSpacer_8</zorder>
+  <zorder>nameL</zorder>
+  <zorder>priceL</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>pushButton_2</zorder>
+  <zorder>countL</zorder>
+  <zorder>dateEdit</zorder>
+ </widget>
+ <tabstops>
+  <tabstop>nameL</tabstop>
+  <tabstop>countL</tabstop>
+  <tabstop>priceL</tabstop>
+  <tabstop>dateEdit</tabstop>
+  <tabstop>pushButton</tabstop>
+  <tabstop>pushButton_2</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
